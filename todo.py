@@ -2,7 +2,7 @@ tasks = []
 
 
 def add_task(task):
-    tasks = task
+    tasks.append(task) #append method is added
     print(f"Task '{task}' added!")
 
 
